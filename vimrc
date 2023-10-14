@@ -15,6 +15,6 @@ set suffixes+=.info,.aux,.log,.dvi,.bbl,.out,.o,.lo
 
 set nomodeline
 autocmd BufRead APKBUILD set filetype=sh
-set expandtab    #expandtab: use spaces for tab
-set tabstop=2    #tabstop: amount of spaces used for tab
-set shiftwidth=2 #shiftwidth: amount of spaces used during indentation
+set expandtab      " expandtab: use spaces for tab
+set tabstop=2      " tabstop: amount of spaces used for tab
+set shiftwidth=2   " shiftwidth: amount of spaces used during indentation
