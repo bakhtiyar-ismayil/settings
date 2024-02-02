@@ -6,7 +6,7 @@ set bs=2                " Allow backspacing over everything in insert mode
 set ai                  " Always set auto-indenting on
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
-
+set ai cuc ts=2
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
