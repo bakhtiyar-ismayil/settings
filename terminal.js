@@ -113,14 +113,14 @@
                 "source": "Windows.Terminal.Wsl",
                 "tabColor": "#5CD656"
             },
-            {
-                "commandline": "wsl.exe -d kali-linux",
+                 
+	    {
+                "commandline": "wsl.exe -d kali-linux bash /home/kali/ssh.sh",
                 "guid": "{00000000-0000-0000-0000-000000000005}",
                 "hidden": false,
                 "name": "WSL-Kali",
                 "tabColor": "#569CD6"
             }
-                 
         ]
     },
     "schemes": 
