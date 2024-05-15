@@ -30,6 +30,7 @@
         }
     ],
     "alwaysOnTop": false,
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -53,37 +54,36 @@
         },
         "list": 
         [
-
             {
-                "guid": "{00000000-0000-0000-0000-000000000002}",
-                "name": "Oracle1",
                 "commandline": "ssh root@oracletest",
-                "tabTitle": "Oracle1",
-                "tabColor": "#d6565c",
-                "hidden": false
+                "guid": "{00000000-0000-0000-0000-000000000002}",
+                "hidden": false,
+                "name": "Oracle1",
+                "tabColor": "#D6565C",
+                "tabTitle": "Oracle1"
             },
             {
-                "guid": "{00000000-0000-0000-0000-000000000003}",
-                "name": "Oracle2",
                 "commandline": "ssh root@oracletest2",
-                "tabColor": "#d6565c",
-                "tabTitle": "Oracle2",
-                "hidden": false
+                "guid": "{00000000-0000-0000-0000-000000000003}",
+                "hidden": false,
+                "name": "Oracle2",
+                "tabColor": "#D6565C",
+                "tabTitle": "Oracle2"
             },
             {
+                "commandline": "ssh root@ansible",
                 "guid": "{00000000-0000-0000-0000-000000000004}",
+                "hidden": false,
                 "name": "Ansible",
-                "tabTitle": "Ansible",
-                "tabColor": "#565cd6",
-                "commandline": "ssh bakhtiyar_ismayilli@bakhtiyar-ismayilli#cbar.az@10.10.90.90#53123@192.168.128.94",
-                "hidden": false
+                "tabColor": "#565CD6",
+                "tabTitle": "Ansible"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
-                "name": "Windows PowerShell"
-
+                "name": "Windows PowerShell",
+                "tabColor": "#5CD656"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -100,31 +100,27 @@
                     "face": "Ubuntu Mono"
                 },
                 "guid": "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
+                "hidden": true,
                 "historySize": 50000,
                 "icon": "C:/Program Files/Multipass/bin/multipass_wt.ico",
-                "name": "Multipass",
-                "hidden": true
+                "name": "Multipass"
             },
             {
                 "guid": "{4ebdc201-93f2-5914-a6fa-6f6bf882cbea}",
                 "hidden": false,
-                "name": "WSL-Oracle",
-                "tabColor": "#569cd6",
-                "source": "Windows.Terminal.Wsl"
+                "name": "SSH",
+                "commandline": "bash /home/oracle/ssh.sh",
+                "source": "Windows.Terminal.Wsl",
+                "tabColor": "#5CD656"
             },
             {
+                "commandline": "wsl.exe -d kali-linux",
                 "guid": "{00000000-0000-0000-0000-000000000005}",
                 "hidden": false,
                 "name": "WSL-Kali",
-                "tabColor": "#569cd6",
-                "commandline": "wsl.exe -d kali-linux"
-            },
-            {
-                "guid": "{89a27739-4c4c-55f5-9736-66e40da6003b}",
-                "hidden": false,
-                "name": "Oracle",
-                "source": "Windows.Terminal.Wsl"
+                "tabColor": "#569CD6"
             }
+                 
         ]
     },
     "schemes": 
@@ -383,9 +379,8 @@
             "yellow": "#808000"
         }
     ],
+    "showTerminalTitleInTitlebar": false,
     "startOnUserLogin": true,
     "theme": "system",
-    "themes": [],
-    "alwaysShowTabs": true,
-    "showTerminalTitleInTitlebar": false
+    "themes": []
 }
