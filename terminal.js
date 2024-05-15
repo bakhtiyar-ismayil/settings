@@ -75,7 +75,7 @@
                 "name": "Ansible",
                 "tabTitle": "Ansible",
                 "tabColor": "#565cd6",
-                "commandline": "ssh root@ansible",
+                "commandline": "ssh bakhtiyar_ismayilli@bakhtiyar-ismayilli#cbar.az@10.10.90.90#53123@192.168.128.94",
                 "hidden": false
             },
             {
@@ -109,12 +109,14 @@
                 "guid": "{4ebdc201-93f2-5914-a6fa-6f6bf882cbea}",
                 "hidden": false,
                 "name": "WSL-Oracle",
+                "tabColor": "#569cd6",
                 "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000000005}",
                 "hidden": false,
                 "name": "WSL-Kali",
+                "tabColor": "#569cd6",
                 "commandline": "wsl.exe -d kali-linux"
             },
             {
