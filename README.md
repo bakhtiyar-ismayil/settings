@@ -1,3 +1,2 @@
-# VIM
+# Settings
 
-#### Vim setting 
