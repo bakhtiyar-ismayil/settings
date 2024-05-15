@@ -75,7 +75,7 @@
                 "name": "Ansible",
                 "tabTitle": "Ansible",
                 "tabColor": "#565cd6",
-                "commandline": "ssh bakhtiyar_ismayilli@bakhtiyar-ismayilli#cbar.az@10.10.90.90#53123@192.168.128.94",
+                "commandline": "ssh root@ansible",
                 "hidden": false
             },
             {
